@@ -2,18 +2,18 @@
 
 A powerful, personalized Socratic tutor for Science, Technology, Engineering, Arts, and Mathematics (STEAM). The ALS uses an agentic evaluation pipeline to guide students through a mastery-based knowledge graph.
 
-## 🧠 Features
+## Features
 - **Pedagogical Policy Engine**: Dynamic mode-switching (Socratic, Direct, Repair).
 - **Ontological Grounding**: Detects and corrects "magic thinking" or category errors.
 - **Knowledge Laddering**: Ensures students master concrete concepts before moving to abstract formalisms.
 - **High-Performance Visuals**: React-based force-directed graph with smooth mastery-based color gradients.
 
-## 🏗️ Architecture
+## Architecture
 - **Backend**: FastAPI (Python)
 - **Frontend**: React + Vite + Tailwind CSS
 - **Interactions**: Groq (Llama 3.1 & Vision) for reasoning and tutoring.
 
-## 🛠️ Local Setup
+## Local Setup
 
 ### Backend
 1. Navigate to `als_backend/`
@@ -24,7 +24,7 @@ A powerful, personalized Socratic tutor for Science, Technology, Engineering, Ar
 1. Run `npm install`
 2. Run `npm run dev`
 
-## 🚀 Deployment (Production)
+## Deployment (Production)
 
 This project is structured for easy deployment on **Render** (Backend) and **Vercel** (Frontend).
 
